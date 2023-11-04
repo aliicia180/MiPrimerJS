@@ -1,5 +1,6 @@
 const miTitulo = document.querySelector("h1");
 miTitulo.textContent = "¡Hola mundo!";
+
   let nombre ="Alicia";
     const edad = 19;
 
@@ -10,3 +11,9 @@ if (perro === "bimba") {
   alert("Mi perra bimba es la mejor");
 } else {
   alert("Bimba es el nombre de mi perra");
+}
+
+
+document.querySelector("html").onclick = function () {
+  alert("¡NO ME PULSES!");
+};
